@@ -1,0 +1,53 @@
+{
+  "name": "auth-service-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Frontend for the Auth Service application integrated with Spring Boot and GitHub OAuth2.",
+  "dependencies": {
+    "react": "^18.2.0",                            
+    "react-dom": "^18.2.0",                        
+    "react-router-dom": "^7.1.1",                  
+    "react-scripts": "5.0.1",                      
+    "web-vitals": "^4.2.4"                         
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",                         
+    "eslint-config-react-app": "^7.0.0",          
+    "prettier": "^2.8.8"                          
+  },
+  "scripts": {
+    "start": "react-scripts start",               
+    "build": "react-scripts build",               
+    "test": "react-scripts test",                  
+    "eject": "react-scripts eject",               
+    "format": "prettier --write \"src/**/*.{js,jsx,json,css}\"" 
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:8085",                
+  "keywords": [
+    "react",
+    "spring-boot",
+    "auth-service",
+    "github-oauth2",
+    "frontend"
+  ],
+  "author": "Your Name",                           
+  "license": "MIT"                               
+}
